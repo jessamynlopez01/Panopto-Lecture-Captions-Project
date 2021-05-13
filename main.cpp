@@ -5,7 +5,7 @@
  Project Description: Inspired by my archaeology class.
  This C++ program takes a .txt file filled with the captions from a Panopto Lecture and
  generates a new .txt file that removes time stamps and newlines from the old .txt file.
- */
+*/
 
 // Standard libraries necessary for file input/output stream and using strings
 #include <iostream>
@@ -45,6 +45,7 @@ int main() {
             }
         }
     }
+ 
     // Once file is completed output success message and close file
     cout << "Completed new file";
     outFile.close();
